@@ -23,7 +23,12 @@ To identify and remove atypical data from the database, we calculated the confid
 
 ## Methodolgy
 
-The methodology proposed for this project consisted in the application of three procedures. The first procedure is the model identification, which is focused on the stationarity analysis of the dataset. The second part is the estimation of the parameters, which aims to determine the ARMA or ARIMA coefficients depending on the previous classification. Finally, the prediction and models' performance evaluation make estimations about the future demand and assess the quality of these estimations.
+The methodology proposed in this work consists of stages. The first stage is the prediction phase. Different prediction models were developed and evaluated in the second stage of the methodology for each of the products in the database. The second stage is the evaluation phase in the models. Each of the prediction models of each product was evaluated using an indicator of precision to select the best one.
+
+The time series analysis is probably one of the most used traditional tools for estimating forecasts on the demand of a product. These models are characterized by considering only the data recorded on the behavior of the demand during a specific time interval, prioritizing the most recent data, and detecting patterns in this data. However, the problem with this type of analysis is that it understands demand as a variable that is only affected by itself and ignores other variables such as the type of product or the target market.
+
+For this reason, the methodology proposed to provide a solution to the problem is based on regression analysis that, unlike time series, allows predicting the behavior of one or several response variables, based on the analysis of one or more predictors, since it is intended to consider the impact of other variables different to the demand, for the forecasting process.
+
 
 ## References
 
