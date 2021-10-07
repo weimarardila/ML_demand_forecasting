@@ -29,6 +29,13 @@ The time series analysis is probably one of the most used traditional tools for 
 
 For this reason, the methodology proposed to provide a solution to the problem is based on regression analysis that, unlike time series, allows predicting the behavior of one or several response variables, based on the analysis of one or more predictors, since it is intended to consider the impact of other variables different to the demand, for the forecasting process.
 
+## Models
+
+1. Linear Regression.
+
+2. Kernel Ridge Regression.
+
+3. MLP Neural Network.
 
 ## References
 
